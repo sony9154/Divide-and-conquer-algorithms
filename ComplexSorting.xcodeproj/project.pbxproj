@@ -239,6 +239,7 @@
 				5D68C93E1D58ECE6002FAD50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

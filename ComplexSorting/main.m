@@ -24,7 +24,7 @@ NSArray * sortFromLarge(NSDictionary * targets) {
     NSMutableArray *result = [NSMutableArray array];
     for (int i = 9; i >= 0; i--) {
         if (targets[@(i)]) {
-            [result addObject:targets[@(i)]];//為何不是array形式 @[29,17,37,66,86,36,81] ?
+            [result addObject:targets[@(i)]];
         }
     }
     return result;
